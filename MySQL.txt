@@ -1,0 +1,35 @@
+RESTART MYSQL: sudo service restart
+
+MYSQL STATUS: sudo service mysql status
+
+USE MYSQL: sudo mysql;
+
+SHOW DATABASES: show databases;
+
+CREATE DATABASE: create database [databaseName];
+
+USE DATABASE: use [databaseName];
+
+CREATE TABLE: create table [tableName] (		//table
+		<integer> int, 				//columns
+		<string> varchar(maxCharacter)		//columns
+		);
+
+SHOW TABLES: show tables; 
+
+SEE THE TABLE: describe [tableName]; 
+
+INSERT VALUES: insert into [tableName] values (<integer>, "<string>");
+
+SEE ROWS: select * from [tableName]; 			// * => all
+	  select <column> from [tableName]; 
+
+FILTER (look up) IN A ROW: select * from [tableName]/<column> where <column1> = "<value>";
+			   select * from [tableName]/<column> where <column1> = "<value>" or <column> = "<value>";
+			   select * from [tableName]/<column> where not <column1> = "<value>";
+
+UPDATE ROWS: update [tableName] set <columns> = <updatedName/int> where <column1> = <notUpdatedRow>;
+
+ADD A COLUMN: alter table [tableName] add [columnName] <type (ex: boolean, int)>; 
+
+DELETE ROW: delete from [tableName] where <integer>=[value]; 
