@@ -36,3 +36,5 @@ UPDATE ROWS: update [tableName] set <columns> = <updatedName/int> where <column1
 ADD A COLUMN: alter table [tableName] add [columnName] <type (ex: boolean, int)>; 
 
 DELETE ROW: delete from [tableName] where <integer>=[value]; 
+
+DELETE A TABLE: drop table [tableName];
