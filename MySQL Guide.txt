@@ -1,3 +1,6 @@
+CHANGE PASSWORD: ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
+		 flush privileges;
+
 RESTART MYSQL: sudo service restart
 
 MYSQL STATUS: sudo service mysql status
