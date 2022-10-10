@@ -1,3 +1,9 @@
+CREATE USER: '<user>'@'<IP>' IDENTIFIED BY '<password>';
+
+GIVE ALL PERMISSIONS: GRANT ALL PRIVILEGES ON *.* TO '<user>'@'<IP>' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES: flush privileges;
+
 CHANGE PASSWORD: ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyN3wP4ssw0rd';
 		 flush privileges;
 
