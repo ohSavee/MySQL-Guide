@@ -28,7 +28,7 @@ SHOW TABLES: show tables;
 
 SEE THE TABLE: describe [tableName]; 
 
-INSERT VALUES: insert into [tableName] values (<integer>, "<string>");
+INSERT VALUES: INSERT INTO [tableName] (<column>, <column1>, <column2>) VALUES (<value>, <value1>, <value2>);
 
 SEE ROWS: select * from [tableName]; 			// * => all
 	  select <column> from [tableName]; 
