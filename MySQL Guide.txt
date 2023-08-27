@@ -48,3 +48,8 @@ DELETE ROW: delete from [tableName] where <name>=[value];
 DELETE A TABLE: drop table [tableName];
 
 DELETE A DATABASE: drop database [databaseName];
+
+MySQL create user:
+1) CREATE USER 'save'@'000.000.000.000' IDENTIFIED BY 'MyP4ssw0rd!';
+2) GRANT ALL PRIVILEGES ON *.* TO 'save'@'000.000.000.000' WITH GRANT OPTION;
+3) flush privileges;
